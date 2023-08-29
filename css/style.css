@@ -554,10 +554,6 @@ video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .-right-96 {
   right: -24rem;
 }
@@ -600,6 +596,10 @@ video {
   margin-right: -0.25rem;
 }
 
+.-mr-6 {
+  margin-right: -1.5rem;
+}
+
 .-mt-2 {
   margin-top: -0.5rem;
 }
@@ -614,6 +614,14 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-60 {
+  margin-left: 15rem;
 }
 
 .mt-10 {
@@ -636,8 +644,8 @@ video {
   margin-top: 24rem;
 }
 
-.-mr-3 {
-  margin-right: -0.75rem;
+.mt-48 {
+  margin-top: 12rem;
 }
 
 .block {
@@ -668,27 +676,6 @@ video {
   height: 100vh;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-4\/5 {
-  height: 80%;
-}
-
-.h-3\/4 {
-  height: 75%;
-}
-
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -699,15 +686,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .max-w-6xl {
@@ -734,12 +712,6 @@ video {
   justify-content: space-between;
 }
 
-.space-x-20 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(5rem * var(--tw-space-x-reverse));
-  margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
@@ -756,18 +728,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-32 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(8rem * var(--tw-space-x-reverse));
-  margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-96 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(24rem * var(--tw-space-x-reverse));
-  margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -855,6 +815,26 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.py-44 {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+
+.py-60 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
 .pb-1 {
@@ -1003,6 +983,11 @@ ion-icon:hover {
 
 html {
   scroll-behavior: smooth;
+}
+
+.fa-solid,
+.fa-brands {
+  color: rgb(251, 146, 60);
 }
 
 .hover\:scale-110:hover {

@@ -72,3 +72,8 @@ ion-icon:hover {
 html {
   scroll-behavior: smooth;
 }
+
+.fa-solid,
+.fa-brands {
+  color: rgb(251, 146, 60);
+}
