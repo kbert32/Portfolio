@@ -42,7 +42,7 @@
 
             <div
             id="logo"
-            class="text-2xl font-light border-2 border-orange-100 rounded-full px-3 py-3 -mt-4 bg-sky-900 bg-opacity-50 hover:bg-opacity-100 hover:bg-orange-400 hover:text-sky-900 hover:scale-110 transition-all duration-150"
+            class="text-2xl font-light border-2 border-orange-100 rounded-full px-3 py-3 -mt-4 bg-sky-900 bg-opacity-50 hover:bg-opacity-100 hover:bg-orange-400 text-orange-300 hover:text-sky-900 hover:scale-110 transition-all duration-150"
             style="letter-spacing: -4px"
             >
             BHD
@@ -69,7 +69,7 @@
             <div
               class="group hover:text-orange-300 hover:scale-110 transition-all duration-150"
             >
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
               <div
                 class="mx-2 group-hover:border-b group-hover:border-orange-300 transition-all duration-150"
               ></div>
@@ -85,7 +85,7 @@
             <div
               class="group border-2 rounded-3xl border-orange-100 px-4 -mt-2 pt-2 hover:bg-orange-400 hover:text-sky-900 hover:scale-110 transition-all duration-150"
             >
-              <a href="#">Contact Me</a>
+              <a href="#contact">Contact Me</a>
               <div class="mx-2"></div>
             </div>
           </div>
@@ -110,9 +110,9 @@
         >
           <a href="#about" class="hover:text-orange-300 hover:scale-110 transition-all duration-150">About Me</a>
           <a href="#skills" class="hover:text-orange-300 hover:scale-110 transition-all duration-150">Skills</a>
-          <a href="#" class="hover:text-orange-300 hover:scale-110 transition-all duration-150">Projects</a>
+          <a href="#projects" class="hover:text-orange-300 hover:scale-110 transition-all duration-150">Projects</a>
           <a href="./files/Resume.pdf" target="_blank" class="hover:text-orange-300 hover:scale-110 transition-all duration-150">Resume</a>
-          <a href="#" class="hover:text-sky-900 hover:bg-orange-400 hover:scale-110 transition-all duration-150 border-2 rounded-3xl border-orange-100 px-4 py-1">Contact Me</a>
+          <a href="#contact" class="hover:text-sky-900 hover:bg-orange-400 hover:scale-110 transition-all duration-150 border-2 rounded-3xl border-orange-100 px-4 py-1">Contact Me</a>
         </div>
     </section>
 <!-- Hero -->
@@ -227,32 +227,80 @@
     </section>
 <!-- Projects -->
 
-    <section id="projects" class="container text-sky-900 max-w-6xl mx-auto px-6 py-12 mt-96">
-      <div class="p-2 md:p-10 grid gap-6 grid-cols-1 md:grid-cols-3 md:grid-rows-4">
-        <div class="relative p-6 rounded-xl md:row-span-2 border-2">
-          
+    <section id="projects" class="container text-sky-900 max-w-6xl mx-auto px-6 py-36 mt-96">
+      <h2 class="text-4xl text-orange-400 font-bold mb-4 mx-auto text-center">Projects</h2>
+
+      <div class="p-10 grid gap-6 grid-cols-1 md:grid-cols-3 md:grid-rows-4">
+<!-- box 1 -->
+          <a href="https://blog-prod-five.vercel.app/" target="_blank" class="md:py-8 p-4 relative rounded-xl md:row-span-2 border-2 group hover:border-yellow-300 hover:shadow-orange-300 hover:scale-105 transition-all duration-150 overflow-hidden shadow-lg shadow-black">
+            <div class="rounded-xl overflow-hidden w-fit mx-auto group-hover:scale-110 transition-all duration-150">
+              <img src="./files/nextblog.PNG" alt="next blog screenshot" width="302" height="156"/>
+            </div>
+            <div class="mt-4 md:mt-8 border-2 rounded-xl p-3 group-hover:text-sky-950">
+              <h2 class="text-xl font-bold text-center mb-2">Next Events</h2>
+              A full stack app that displays and filters events.  Allows comments to be made.  Created using Next.js and MongoDB. 
+            </div>
+          </a>
+<!-- box 2 -->
+        <a href="https://brandtharrison.huskisites.com/" target="_blank" class="group flex flex-col md:flex-row md:justify-between p-4 relative rounded-xl md:col-span-2 border-2 hover:border-yellow-300 hover:shadow-orange-300 hover:scale-105 transition-all duration-150 overflow-hidden shadow-lg shadow-black">
+          <div class="rounded-xl overflow-hidden w-fit mx-auto md:mx-0 md:h-fit md:my-4 group-hover:scale-110 transition-all duration-150">
+            <img src="./files/MernPlaces.PNG" alt="next blog screenshot" width="302" height="156"/>
+          </div>
+          <div class="mt-4 md:mt-0 md:ml-3 border-2 rounded-xl p-3 md:w-1/2 group-hover:text-sky-950">
+            <h2 class="text-xl font-bold text-center mb-2">Your Places</h2>
+            A full stack MERN app: MongoDB, Express, React, and Node.  Allows users to create a login with their profile pic and add places with pictures.  Places can be displayed on Google Maps.
+          </div>
+        </a>
+<!-- box 3 -->
+        <div class="group flex flex-col md:flex-row md:justify-between p-4 relative rounded-xl md:col-span-2 border-2 hover:border-yellow-300 hover:shadow-orange-300 hover:scale-105 transition-all duration-150 overflow-hidden shadow-lg shadow-black">
+          <div class="rounded-xl overflow-hidden w-fit mx-auto md:mx-0 md:h-fit md:my-3 group-hover:scale-110 transition-all duration-150">
+            <img src="./files/nextblog.PNG" alt="next blog screenshot" width="302" height="156"/>
+          </div>
+          <div class="mt-4 md:mt-0 md:ml-3 border-2 rounded-xl p-3 md:w-1/2 group-hover:text-sky-950">
+            Look, a few minutes ago you said you didn't want to just wait here to be captured. Now all you want to do is stay. Marching into the detention area is not what I had in mind. But they're going to kill her! Better her than me.
+          </div>
         </div>
-        <div class="relative p-6 rounded-xl md:col-span-2 border-2">
-          
+<!-- box 4 -->
+        <div class="group flex flex-col md:flex-row md:justify-between p-4 relative rounded-xl md:col-span-2 border-2 hover:border-yellow-300 hover:shadow-orange-300 hover:scale-105 transition-all duration-150 overflow-hidden shadow-lg shadow-black">
+          <div class="rounded-xl overflow-hidden w-fit mx-auto md:mx-0 md:h-fit md:my-3 group-hover:scale-110 transition-all duration-150">
+            <img src="./files/nextblog.PNG" alt="next blog screenshot" width="302" height="156"/>
+          </div>
+          <div class="mt-4 md:mt-0 md:ml-3 border-2 rounded-xl p-3 md:w-1/2 group-hover:text-sky-950">
+            Do you think I had a choice? You can tell that to Jabba. He may only take your ship. Over my dead body. That's the idea. Jabba's through with you. He has no time for smugglers who drop their shipments at the first sign of an Imperial cruiser. 
+          </div>
         </div>
-        <div class="relative p-6 rounded-xl md:col-span-2 border-2">
-          
+<!-- box 5 -->
+        <div class="md:py-8 p-4 relative rounded-xl order-6 md:order-none md:row-span-2 border-2 group hover:border-yellow-300 hover:shadow-orange-300 hover:scale-105 transition-all duration-150 overflow-hidden shadow-lg shadow-black">
+          <div class="rounded-xl overflow-hidden w-fit mx-auto group-hover:scale-110 transition-all duration-150">
+            <img src="./files/nextblog.PNG" alt="next blog screenshot" width="302" height="156"/>
+          </div >
+          <div class="mt-4 md:mt-8 border-2 rounded-xl p-3 group-hover:text-sky-950">
+            What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what!
+          </div>
         </div>
-        <div class="relative p-6 rounded-xl md:col-span-2 border-2">
-          
+<!-- box 6 -->
+        <div class="group flex flex-col md:flex-row md:justify-between p-4 relative rounded-xl md:col-span-2 border-2 hover:border-yellow-300 hover:shadow-orange-300 hover:scale-105 transition-all duration-150 overflow-hidden shadow-lg shadow-black">
+          <div class="rounded-xl overflow-hidden w-fit mx-auto md:mx-0 md:h-fit md:my-3 group-hover:scale-110 transition-all duration-150">
+            <img src="./files/nextblog.PNG" alt="next blog screenshot" width="302" height="156"/>
+          </div>
+          <div class="mt-4 md:mt-0 md:ml-3 border-2 rounded-xl p-3 md:w-1/2 group-hover:text-sky-950">
+            Shut them all down! Hurry! Listen to them! They're dying, Artoo! Curse my metal body! I wasn't fast enough. It's all my fault! My poor master! Threepio, we're all right! We're all right.
+          </div>
         </div>
-        <div class="relative p-6 rounded-xl md:row-span-2 border-2">
-          
-        </div>
-        <div class="relative p-6 rounded-xl md:col-span-2 border-2">
-          
-        </div>
+
       </div>
     </section>
 <!-- Contact -->
 
-    <section id="contact" class="text-sky-900 max-w-6xl mx-auto px-6 py-12 mt-96">
-
+    <section id="contact" class="text-sky-900 max-w-6xl mx-auto px-6 py-12 mt-96 pb-24">
+      <h2 class="text-4xl text-orange-400 font-bold mb-8 mx-auto text-center">Contact Me</h2>
+      <form class="flex flex-col space-y-6 max-w-2xl mx-auto">
+        <input type="text" name="name" placeholder="Your Name" required class="p-3 rounded-lg bg-orange-200 bg-opacity-20 focus:bg-orange-300 focus:bg-opacity-40 focus:scale-110 transition-all duration-150 placeholder:italic placeholder:text-lg placeholder:text-sky-900 outline-none focus:outline-orange-400">
+        <input type="email" name="email" placeholder="Your Email" required class="p-3 rounded-lg bg-orange-200 bg-opacity-20 focus:bg-orange-300 focus:bg-opacity-40 focus:scale-110 transition-all duration-150 placeholder:italic placeholder:text-lg placeholder:text-sky-900 outline-none focus:outline-orange-400">
+        <input type="text" name="number" placeholder="Your Number" class="p-3 rounded-lg bg-orange-200 bg-opacity-20 focus:bg-orange-300 focus:bg-opacity-40 focus:scale-110 transition-all duration-150 placeholder:italic placeholder:text-lg placeholder:text-sky-900 outline-none focus:outline-orange-400">
+        <textarea name="message" cols="30" rows="10" placeholder="Leave a message" required class="p-3 rounded-lg bg-orange-200 bg-opacity-20 focus:bg-orange-300 focus:bg-opacity-40 focus:scale-110 transition-all duration-150 placeholder:italic placeholder:text-lg placeholder:text-sky-900 outline-none focus:outline-orange-400"></textarea>
+        <input type="submit" value="Submit Message" required class="px-36 mx-auto p-4 border-2 border-orange-300 rounded-lg bg-sky-950 bg-opacity-30 text-orange-300 cursor-pointer hover:scale-105 transition-all duration-150 hover:text-orange-400 hover:font-bold hover:bg-opacity-100 hover:border-orange-400 placeholder:italic placeholder:text-lg placeholder:text-sky-900">
+      </form>
     </section>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
