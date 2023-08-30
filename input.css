@@ -5,8 +5,8 @@
 /* Hamburger Menu */
 .hamburger {
   cursor: pointer;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   transition: all 0.25s;
   position: relative;
 }
@@ -15,7 +15,7 @@
 .hamburger-middle,
 .hamburger-bottom {
   position: absolute;
-  width: 24px;
+  width: 32px;
   height: 2px;
   top: 0;
   left: 0;
