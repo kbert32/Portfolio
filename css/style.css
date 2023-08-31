@@ -719,6 +719,22 @@ h2 {
   margin-top: 6rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .block {
   display: block;
 }
@@ -754,6 +770,14 @@ h2 {
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-2\/3 {
