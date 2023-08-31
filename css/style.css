@@ -703,10 +703,6 @@ h2 {
   width: 66.666667%;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
 .w-60 {
   width: 15rem;
 }
@@ -860,14 +856,6 @@ h2 {
   --tw-bg-opacity: 0.7;
 }
 
-.bg-opacity-10 {
-  --tw-bg-opacity: 0.1;
-}
-
-.bg-opacity-90 {
-  --tw-bg-opacity: 0.9;
-}
-
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
@@ -947,6 +935,11 @@ h2 {
   padding-bottom: 2.5rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -967,31 +960,21 @@ h2 {
   padding-bottom: 9rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-80 {
   padding-top: 20rem;
   padding-bottom: 20rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .pb-1 {
   padding-bottom: 0.25rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pb-9 {
+  padding-bottom: 2.25rem;
 }
 
 .pt-12 {
@@ -1002,32 +985,12 @@ h2 {
   padding-top: 0.5rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.pb-7 {
-  padding-bottom: 1.75rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-9 {
-  padding-bottom: 2.25rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -1037,11 +1000,6 @@ h2 {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -1085,11 +1043,6 @@ h2 {
   color: rgb(253 186 116 / var(--tw-text-opacity));
 }
 
-.text-orange-400 {
-  --tw-text-opacity: 1;
-  color: rgb(251 146 60 / var(--tw-text-opacity));
-}
-
 .text-sky-900 {
   --tw-text-opacity: 1;
   color: rgb(12 74 110 / var(--tw-text-opacity));
@@ -1119,26 +1072,6 @@ h2 {
 
 .shadow-black {
   --tw-shadow-color: #000;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-sky-900 {
-  --tw-shadow-color: #0c4a6e;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-sky-400 {
-  --tw-shadow-color: #38bdf8;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-sky-100 {
-  --tw-shadow-color: #e0f2fe;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-sky-200 {
-  --tw-shadow-color: #bae6fd;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
