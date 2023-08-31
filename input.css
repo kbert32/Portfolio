@@ -77,3 +77,17 @@ html {
 .fa-brands {
   color: rgb(251, 146, 60);
 }
+
+h2 {
+  -webkit-text-stroke: 1px rgb(12, 74, 110);
+}
+
+.stroper {
+  -webkit-text-stroke: 2px rgb(12, 74, 110);
+}
+
+@layer base {
+  h2 {
+    @apply text-transparent bg-gradient-to-tl from-orange-500 to-orange-100 bg-clip-text;
+  }
+}
