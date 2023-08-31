@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="script.js" defer></script>
+    <script src="script.js" async></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
@@ -157,7 +157,7 @@
 
     <section
       id="hero"
-      class="flex container max-w-6xl mx-auto mt-52 px-16 py-12"
+      class="flex container max-w-6xl h-screen mx-auto px-16 py-80"
     >
       <div class="flex flex-col">
         <p class="text-sky-900">Hi, my name is</p>
@@ -204,9 +204,11 @@
 
     <section
       id="about"
-      class="flex container max-w-6xl mx-auto px-6 py-12 mt-96"
+      class="flex container max-w-6xl h-screen mx-auto px-6 py-24"
     >
-      <div class="flex flex-col items-center md:flex-row md:justify-between">
+      <div
+        class="flex flex-col items-center md:flex-row md:justify-between bg-black rounded-2xl bg-opacity-5 shadow-2xl p-6 mt-12"
+      >
         <div class="w-60 h-60 rounded-full overflow-hidden">
           <img
             src="./files/124922221_10220542812713602_2727087864645348082_n.jpg"
@@ -215,7 +217,7 @@
           />
         </div>
 
-        <div class="w-2/3 mt-24 flex flex-col space-y-6 text-sky-900">
+        <div class="w-2/3 flex flex-col space-y-6 text-sky-900">
           <h2 class="text-4xl text-orange-400 font-bold mb-4 text-center">
             About Me
           </h2>
@@ -261,61 +263,65 @@
 
     <section
       id="skills"
-      class="flex container flex-col text-sky-900 space-y-10 max-w-6xl mx-auto px-16 py-60 mt-96"
+      class="flex container text-sky-900 max-w-6xl h-screen mx-auto py-44 justify-center"
     >
-      <h2 class="text-4xl text-orange-400 font-bold mb-4 mx-auto">Skills</h2>
-      <div class="flex mx-auto">
-        <div class="flex flex-col space-y-6">
-          <div>
-            <span class="fa-brands fa-html5 fa-beat"></span>
-            <span class="ml-2">HTML</span>
+      <div
+        class="flex flex-col space-y-10 bg-black rounded-2xl bg-opacity-5 shadow-2xl p-20"
+      >
+        <h2 class="text-4xl text-orange-400 font-bold mb-4 mx-auto">Skills</h2>
+        <div class="flex mx-auto">
+          <div class="flex flex-col space-y-6">
+            <div>
+              <span class="fa-brands fa-html5 fa-beat"></span>
+              <span class="ml-2">HTML</span>
+            </div>
+            <div>
+              <span class="fa-brands fa-css3-alt fa-beat"></span>
+              <span class="ml-2">CSS</span>
+            </div>
+            <div>
+              <span class="fa-brands fa-js fa-beat"></span>
+              <span class="ml-2">Javascript</span>
+            </div>
+            <div>
+              <span class="fa-brands fa-react fa-beat"></span>
+              <span class="ml-2">React</span>
+            </div>
+            <div>
+              <span class="fa-brands fa-php fa-beat"></span>
+              <span class="ml-2">PHP</span>
+            </div>
           </div>
-          <div>
-            <span class="fa-brands fa-css3-alt fa-beat"></span>
-            <span class="ml-2">CSS</span>
-          </div>
-          <div>
-            <span class="fa-brands fa-js fa-beat"></span>
-            <span class="ml-2">Javascript</span>
-          </div>
-          <div>
-            <span class="fa-brands fa-react fa-beat"></span>
-            <span class="ml-2">React</span>
-          </div>
-          <div>
-            <span class="fa-brands fa-php fa-beat"></span>
-            <span class="ml-2">PHP</span>
+
+          <div class="flex flex-col space-y-6 ml-60 -mr-6">
+            <div>
+              <span class="fa-brands fa-python fa-beat"></span>
+              <span class="ml-2">Python</span>
+            </div>
+            <div>
+              <span class="fa-solid fa-database fa-beat"></span>
+              <span class="ml-2">SQL</span>
+            </div>
+            <div>
+              <span class="fa-solid fa-database fa-beat"></span>
+              <span class="ml-2">MongoDB</span>
+            </div>
+            <div>
+              <span class="fa-brands fa-linux fa-beat"> </span>
+              <span class="ml-2">Linux</span>
+            </div>
+            <div>
+              <span class="fa-brands fa-github fa-beat"></span>
+              <span class="ml-2">Github</span>
+            </div>
           </div>
         </div>
 
-        <div class="flex flex-col space-y-6 ml-60 -mr-6">
+        <div class="mx-auto">
           <div>
-            <span class="fa-brands fa-python fa-beat"></span>
-            <span class="ml-2">Python</span>
+            <span class="fa-solid fa-photo-film fa-beat"></span>
+            <span class="ml-2">Drone Photo</span>
           </div>
-          <div>
-            <span class="fa-solid fa-database fa-beat"></span>
-            <span class="ml-2">SQL</span>
-          </div>
-          <div>
-            <span class="fa-solid fa-database fa-beat"></span>
-            <span class="ml-2">MongoDB</span>
-          </div>
-          <div>
-            <span class="fa-brands fa-linux fa-beat"> </span>
-            <span class="ml-2">Linux</span>
-          </div>
-          <div>
-            <span class="fa-brands fa-github fa-beat"></span>
-            <span class="ml-2">Github</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="mx-auto">
-        <div>
-          <span class="fa-solid fa-photo-film fa-beat"></span>
-          <span class="ml-2">Drone Photo</span>
         </div>
       </div>
     </section>
@@ -323,9 +329,11 @@
 
     <section
       id="projects"
-      class="container text-sky-900 max-w-6xl mx-auto px-6 py-36 mt-96"
+      class="container text-sky-900 max-w-6xl mx-auto px-6 py-36"
     >
-      <h2 class="text-4xl text-orange-400 font-bold mb-4 mx-auto text-center">
+      <h2
+        class="text-4xl text-orange-400 font-bold mb-4 mx-auto text-center bg-black rounded-2xl bg-opacity-5 shadow-2xl py-6 w-3/4"
+      >
         Projects
       </h2>
 
@@ -477,7 +485,7 @@
 
     <section
       id="contact"
-      class="text-sky-900 max-w-6xl mx-auto px-16 py-12 mt-96 pb-24"
+      class="text-sky-900 max-w-6xl mx-auto px-16 py-12 pb-24"
     >
       <h2 class="text-4xl text-orange-400 font-bold mb-8 mx-auto text-center">
         Contact Me

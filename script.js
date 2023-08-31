@@ -10,9 +10,8 @@ function navToggle() {
   menu.classList.toggle("visible");
 }
 
-emailjs.init("YKu48JfyIl8eV0_hJ");
-
 window.onload = function () {
+  emailjs.init("YKu48JfyIl8eV0_hJ");
   document
     .getElementById("contact-form")
     .addEventListener("submit", function (event) {
