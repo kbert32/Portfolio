@@ -91,3 +91,7 @@ h2 {
     @apply text-transparent bg-gradient-to-tl from-orange-500 to-orange-100 bg-clip-text;
   }
 }
+
+.hide {
+  opacity: 0;
+}
