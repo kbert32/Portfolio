@@ -683,6 +683,18 @@ h2 {
   margin-top: 4rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mt-44 {
+  margin-top: 11rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .block {
   display: block;
 }
@@ -1031,6 +1043,18 @@ h2 {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .text-center {
@@ -1472,6 +1496,10 @@ h2 {
     margin-top: 90px;
   }
 
+  .md\:mt-44 {
+    margin-top: 11rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1541,5 +1569,21 @@ h2 {
 @media (min-width: 1440px) {
   .xl\:mt-40 {
     margin-top: 10rem;
+  }
+
+  .xl\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .xl\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .xl\:pt-0 {
+    padding-top: 0px;
   }
 }
