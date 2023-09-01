@@ -84,7 +84,7 @@
           <a href="#top">
             <div
               id="logo"
-              class="text-2xl font-light border-2 border-orange-100 rounded-full px-3 py-3 -mt-4 bg-sky-900 bg-opacity-50 hover:bg-opacity-100 hover:bg-orange-400 text-orange-300 hover:text-sky-900 hover:scale-110 transition-all duration-150"
+              class="text-2xl font-light border-2 border-orange-100 rounded-full px-3 py-3 -mt-4 bg-sky-900 bg-opacity-50 hover:bg-opacity-100 hover:bg-orange-400 text-orange-300 hover:text-sky-900 hover:scale-110 transition-all duration-150 shadow-lg shadow-gray-400"
               style="letter-spacing: -4px"
             >
               BHD
@@ -95,7 +95,7 @@
             <div
               class="group hover:text-orange-300 hover:scale-110 transition-all duration-150"
             >
-              <a href="#about">About Me</a>
+              <a href="#about" class="drop-shadow-xl">About Me</a>
               <div
                 class="mx-2 group-hover:border-b group-hover:border-orange-300 transition-all duration-150"
               ></div>
@@ -103,7 +103,7 @@
             <div
               class="group hover:text-orange-300 hover:scale-110 transition-all duration-150"
             >
-              <a href="#skills">Skills</a>
+              <a href="#skills" class="drop-shadow-xl">Skills</a>
               <div
                 class="mx-2 group-hover:border-b group-hover:border-orange-300 transition-all duration-150"
               ></div>
@@ -111,7 +111,7 @@
             <div
               class="group hover:text-orange-300 hover:scale-110 transition-all duration-150"
             >
-              <a href="#projects">Projects</a>
+              <a href="#projects" class="drop-shadow-xl">Projects</a>
               <div
                 class="mx-2 group-hover:border-b group-hover:border-orange-300 transition-all duration-150"
               ></div>
@@ -119,14 +119,19 @@
             <div
               class="group hover:text-orange-300 hover:scale-110 transition-all duration-150"
             >
-              <a href="./files/Resume.pdf" target="_blank">Resume</a>
+              <a
+                href="./files/Resume.pdf"
+                target="_blank"
+                class="drop-shadow-xl"
+                >Resume</a
+              >
               <div
                 class="mx-2 group-hover:border-b group-hover:border-orange-300 transition-all duration-150"
               ></div>
             </div>
             <a
               href="#contact"
-              class="group border-2 rounded-3xl border-orange-100 px-4 -mt-2 pt-2 hover:bg-orange-400 hover:text-sky-900 hover:scale-110 transition-all duration-150"
+              class="group border-2 rounded-3xl border-orange-100 px-4 -mt-2 pt-2 hover:bg-orange-400 hover:text-sky-900 hover:scale-110 transition-all duration-150 shadow-lg shadow-gray-400"
             >
               Contact Me
             </a>
@@ -243,7 +248,9 @@
       <div
         class="flex flex-col items-center md:flex-row md:justify-between bg-black rounded-2xl bg-opacity-5 shadow-2xl w-fit h-fit p-6 mt-24"
       >
-        <div class="w-60 h-60 rounded-full overflow-hidden mb-6">
+        <div
+          class="w-60 h-60 rounded-full overflow-hidden mb-6 shadow-2xl shadow-black"
+        >
           <img
             src="./files/124922221_10220542812713602_2727087864645348082_n.jpg"
             alt="selfie"
@@ -557,11 +564,11 @@
         <input
           type="submit"
           value="Submit Message"
-          class="mx-auto w-2/3 py-4 border-2 border-orange-300 rounded-lg bg-sky-950 bg-opacity-30 text-orange-300 cursor-pointer hover:scale-105 transition-all duration-150 hover:text-orange-400 hover:font-bold hover:bg-opacity-100 hover:border-orange-400 placeholder:italic placeholder:text-lg active:scale-95 active:text-sky-950"
+          class="mx-auto w-2/3 py-4 border-2 border-orange-300 rounded-lg bg-sky-950 bg-opacity-30 text-orange-300 font-semibold text-xl cursor-pointer hover:scale-105 transition-all duration-150 hover:text-orange-400 hover:font-bold hover:bg-opacity-100 hover:border-orange-400 active:scale-95 active:text-sky-950 shadow-xl shadow-gray-500"
         />
         <div
           id="confirm"
-          class="hide relative bottom-56 mx-auto text-2xl font-bold text-sky-600 bg-orange-400 px-8 pb-2 pt-1 rounded-xl border-2 border-sky-600 transition-opacity ease-out duration-300"
+          class="hide relative bottom-56 mx-auto text-2xl font-bold text-sky-600 bg-orange-300 px-8 pb-2 pt-1 rounded-xl border-2 border-sky-600 transition-opacity ease-out duration-300"
         >
           Message sent!
         </div>
