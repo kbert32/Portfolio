@@ -1500,6 +1500,10 @@ h2 {
     margin-top: 11rem;
   }
 
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .md\:flex {
     display: flex;
   }
