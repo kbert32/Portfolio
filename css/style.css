@@ -597,6 +597,38 @@ h2 {
   top: 20%;
 }
 
+.-top-20 {
+  top: -5rem;
+}
+
+.-top-14 {
+  top: -3.5rem;
+}
+
+.-top-16 {
+  top: -4rem;
+}
+
+.-top-12 {
+  top: -3rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-top-9 {
+  top: -2.25rem;
+}
+
+.-top-8 {
+  top: -2rem;
+}
+
+.-top-6 {
+  top: -1.5rem;
+}
+
 .-z-40 {
   z-index: -40;
 }
@@ -743,6 +775,10 @@ h2 {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.scroll-pt-10 {
+  scroll-padding-top: 2.5rem;
 }
 
 .grid-cols-1 {
