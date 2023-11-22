@@ -1674,6 +1674,11 @@ h2 {
     margin-top: 9rem;
   }
 
+  .xl\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .xl\:pt-40 {
     padding-top: 10rem;
   }
