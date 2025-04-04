@@ -58,16 +58,16 @@
   transform: translateX(-382px);
 }
 
-/* ion-icon {
+ion-icon {
   font-size: 32px;
   color: rgb(253, 186, 116);
   transition: all 150ms;
-} */
+}
 
-/* ion-icon:hover {
-  color: rgb(12, 74, 110); */
-/* font-size: 33px; */
-/* } */
+ion-icon:hover {
+  color: rgb(12, 74, 110);
+  /* font-size: 33px; */
+}
 
 html {
   scroll-behavior: smooth;
