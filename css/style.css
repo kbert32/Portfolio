@@ -1413,7 +1413,7 @@ h2 {
   background-image: url("../files/Fire.PNG");
   background-clip: text;
   background-attachment: fixed;
-  /* mix-blend-mode: hard-light; */
+  mix-blend-mode: screen;
 }
 
 .nametrail {
