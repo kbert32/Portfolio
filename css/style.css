@@ -1410,10 +1410,10 @@ h2 {
 }
 
 .initials {
-  background-image: url("../files/Fire.PNG");
+  background-image: url("../files/Fire4.PNG");
   background-clip: text;
   background-attachment: fixed;
-  mix-blend-mode: screen;
+  mix-blend-mode: normal;
 }
 
 .nametrail {
