@@ -2,64 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hamburger Menu */
-.hamburger {
-  cursor: pointer;
-  width: 32px;
-  height: 32px;
-  transition: all 0.25s;
-  position: relative;
-}
-
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
-  position: absolute;
-  width: 32px;
-  height: 2px;
-  top: 0;
-  left: 0;
-  /* background: rgb(254, 215, 170); */
-  transform: rotate(0);
-  transition: all 0.5s;
-}
-
-/* .hamburger-top:hover,
-.hamburger-middle:hover,
-.hamburger-bottom:hover {
-  background: rgb(248, 130, 4);
-} */
-
-.hamburger-middle {
-  transform: translateY(7px);
-}
-
-.hamburger-bottom {
-  transform: translateY(14px);
-}
-
-.open {
-  transform: rotate(90deg);
-}
-
-.open .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translateX(6px);
-}
-
-.open .hamburger-middle {
-  display: none;
-}
-
-.open .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translateX(-6px);
-}
-
-@layer base {
+/* @layer base {
   h2 {
     @apply text-transparent bg-gradient-to-tl from-orange-500 to-orange-100 bg-clip-text;
   }
-}
-
-.hide {
-  opacity: 0;
-}
+} */
