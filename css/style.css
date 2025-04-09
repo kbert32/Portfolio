@@ -1375,6 +1375,62 @@ h2 {
   -webkit-text-stroke: 2px rgb(12, 74, 110);
 }
 
+.namecontainer {
+  position: relative;
+  width: 485px;
+  /* height: 272.81px; */
+  height: 80px;
+}
+
+.textbg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../files/water.jpg");
+  background-attachment: fixed;
+  mix-blend-mode: screen;
+  text-align: center;
+  /* padding-top: 98px; */
+}
+
+.h1container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.bgvid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.initials {
+  background-image: url("../files/Fire.PNG");
+  background-clip: text;
+  background-attachment: fixed;
+  /* mix-blend-mode: hard-light; */
+}
+
+.nametrail {
+  background-image: url("../files/water.jpg");
+  background-attachment: fixed;
+  /* mix-blend-mode: normal; */
+}
+
+.namecontain {
+  padding-bottom: 10px;
+  /* background-color: rgb(1, 1, 88); */
+}
+
+.topmargin20 {
+  margin-top: 20px;
+}
+
 .hide {
   opacity: 0;
 }
