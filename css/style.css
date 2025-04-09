@@ -1286,6 +1286,10 @@ h2 {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+#contact {
+  margin-bottom: 80px;
+}
+
 /* Hamburger Menu */
 
 .hamburger {
