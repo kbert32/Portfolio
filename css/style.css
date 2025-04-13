@@ -687,6 +687,10 @@ h2 {
   margin-top: 10rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .block {
   display: block;
 }
