@@ -2,8 +2,149 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
+@layer base {
   h2 {
     @apply text-transparent bg-gradient-to-tl from-orange-500 to-orange-100 bg-clip-text;
   }
+}
+
+/* Hamburger Menu */
+
+.hamburger {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  /* background: rgb(254, 215, 170); */
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+/* .hamburger-top:hover,
+.hamburger-middle:hover,
+.hamburger-bottom:hover {
+  background: rgb(248, 130, 4);
 } */
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+.visible {
+  transform: translateX(-382px);
+}
+
+ion-icon {
+  font-size: 32px;
+  color: rgb(253, 186, 116);
+  transition: all 150ms;
+}
+
+ion-icon:hover {
+  color: rgb(12, 74, 110);
+  /* font-size: 33px; */
+}
+
+.fa-solid,
+.fa-brands {
+  color: rgb(251, 146, 60);
+}
+
+h2 {
+  -webkit-text-stroke: 1px rgb(12, 74, 110);
+}
+
+.stroper {
+  -webkit-text-stroke: 2px rgb(12, 74, 110);
+}
+
+.namecontainer {
+  position: relative;
+  width: 485px;
+  /* height: 272.81px; */
+  height: 80px;
+}
+
+.textbg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../files/water.jpg");
+  background-attachment: fixed;
+  mix-blend-mode: screen;
+  text-align: center;
+  /* padding-top: 98px; */
+}
+
+.h1container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.bgvid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.initials {
+  background-image: url("../files/Fire4.PNG");
+  background-clip: text;
+  background-attachment: fixed;
+  mix-blend-mode: normal;
+}
+
+.nametrail {
+  background-image: url("../files/water.jpg");
+  background-attachment: fixed;
+  /* mix-blend-mode: normal; */
+}
+
+.namecontain {
+  padding-bottom: 10px;
+  /* background-color: rgb(1, 1, 88); */
+}
+
+.topmargin20 {
+  margin-top: 20px;
+}
+
+.hide {
+  opacity: 0;
+}
