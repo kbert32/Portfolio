@@ -695,6 +695,10 @@ h2 {
   margin-bottom: 5rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .block {
   display: block;
 }
