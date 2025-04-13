@@ -683,6 +683,10 @@ h2 {
   margin-top: 8rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .block {
   display: block;
 }
