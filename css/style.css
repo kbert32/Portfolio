@@ -635,12 +635,12 @@ h2 {
   margin-top: -1rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
-.mb-28 {
-  margin-bottom: 7rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-4 {
@@ -659,6 +659,10 @@ h2 {
   margin-top: 3.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-24 {
   margin-top: 6rem;
 }
@@ -667,48 +671,16 @@ h2 {
   margin-top: 7rem;
 }
 
-.mt-36 {
-  margin-top: 9rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
 }
 
 .mt-40 {
   margin-top: 10rem;
 }
 
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -752,6 +724,10 @@ h2 {
   width: 66.666667%;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-60 {
   width: 15rem;
 }
@@ -763,6 +739,10 @@ h2 {
 
 .w-full {
   width: 100%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-2xl {
@@ -931,6 +911,18 @@ h2 {
   --tw-bg-opacity: 0.7;
 }
 
+.bg-\[url\(\/files\/Fire4\.png\)\] {
+  background-image: url(/files/Fire4.png);
+}
+
+.bg-\[url\(\/files\/water\.jpg\)\] {
+  background-image: url(/files/water.jpg);
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
@@ -1015,6 +1007,10 @@ h2 {
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .pb-6 {
@@ -1610,16 +1606,8 @@ h2 {
     margin-top: 11rem;
   }
 
-  .xl\:mt-48 {
-    margin-top: 12rem;
-  }
-
   .xl\:mt-56 {
     margin-top: 14rem;
-  }
-
-  .xl\:mt-24 {
-    margin-top: 6rem;
   }
 
   .xl\:py-8 {
