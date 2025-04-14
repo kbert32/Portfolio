@@ -907,18 +907,6 @@ h2 {
   --tw-bg-opacity: 0.7;
 }
 
-.bg-\[url\(\"\/files\/Fire5\.PNG\"\)\] {
-  background-image: url("/files/Fire5.PNG");
-}
-
-.bg-\[url\(\/files\/Fire5\.png\)\] {
-  background-image: url(/files/Fire5.png);
-}
-
-.bg-\[url\(\/files\/water\.jpg\)\] {
-  background-image: url(/files/water.jpg);
-}
-
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -926,10 +914,6 @@ h2 {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.bg-center {
-  background-position: center;
 }
 
 .bg-right-top {
@@ -1112,6 +1096,10 @@ h2 {
 
 .text-transparent {
   color: transparent;
+}
+
+.mix-blend-plus-lighter {
+  mix-blend-mode: plus-lighter;
 }
 
 .shadow-2xl {
@@ -1299,9 +1287,11 @@ h2 {
 
 .initials {
   background-image: url("../files/Fire5.PNG");
-  /* background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
   background-attachment: fixed;
-  mix-blend-mode: normal; */
+  color: transparent;
+  background-position: center;
 }
 
 .nametrail {

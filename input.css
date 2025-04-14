@@ -125,9 +125,10 @@ h2 {
 
 .initials {
   background-image: url("../files/Fire5.PNG");
-  /* background-clip: text;
+  background-clip: text;
   background-attachment: fixed;
-  mix-blend-mode: normal; */
+  color: transparent;
+  background-position: center;
 }
 
 .nametrail {
