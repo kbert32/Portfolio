@@ -128,7 +128,7 @@ h2 {
   background-clip: text;
   background-attachment: fixed;
   color: transparent;
-  background-position: center;
+  background-position: bottom;
 }
 
 .nametrail {

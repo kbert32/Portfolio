@@ -916,8 +916,8 @@ h2 {
           background-clip: text;
 }
 
-.bg-right-top {
-  background-position: right top;
+.bg-bottom {
+  background-position: bottom;
 }
 
 .p-3 {
@@ -1291,7 +1291,7 @@ h2 {
           background-clip: text;
   background-attachment: fixed;
   color: transparent;
-  background-position: center;
+  background-position: bottom;
 }
 
 .nametrail {
