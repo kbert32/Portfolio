@@ -125,14 +125,14 @@ h2 {
 
 .initials {
   background-image: url("../files/Fire4.PNG");
-  background-clip: text;
+  /* background-clip: text;
   background-attachment: fixed;
-  mix-blend-mode: normal;
+  mix-blend-mode: normal; */
 }
 
 .nametrail {
   background-image: url("../files/water.jpg");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* mix-blend-mode: normal; */
 }
 
