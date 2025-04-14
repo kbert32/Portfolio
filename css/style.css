@@ -785,6 +785,10 @@ h2 {
   flex-direction: column;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -837,6 +841,10 @@ h2 {
 
 .scroll-smooth {
   scroll-behavior: smooth;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
 }
 
 .rounded-2xl {
@@ -929,6 +937,10 @@ h2 {
 
 .bg-\[url\(\/files\/water\.jpg\)\] {
   background-image: url(/files/water.jpg);
+}
+
+.bg-\[url\(\/files\/Fire4\.PNG\)\] {
+  background-image: url(/files/Fire4.PNG);
 }
 
 .bg-fixed {
