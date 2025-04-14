@@ -124,11 +124,13 @@ h2 {
 }
 
 .initials {
-  background-image: url("../files/Fire5.PNG");
+  background-image: url("../files/Fire.PNG");
   background-clip: text;
   background-attachment: fixed;
   color: transparent;
-  background-position: bottom;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .nametrail {
