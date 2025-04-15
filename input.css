@@ -127,7 +127,7 @@ h2 {
   background-image: url("../files/Fire.PNG");
   background-color: blue;
   background-clip: text;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   color: transparent;
   /* background-position: right; */
   /* background-repeat: no-repeat; */
