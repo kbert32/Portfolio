@@ -887,6 +887,11 @@ h2 {
   background-color: rgb(8 47 73 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-20 {
   --tw-bg-opacity: 0.2;
 }
@@ -905,6 +910,10 @@ h2 {
 
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7;
+}
+
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
 }
 
 .bg-clip-text {
