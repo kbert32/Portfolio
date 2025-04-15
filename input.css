@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   h2 {
     @apply text-transparent bg-gradient-to-tl from-orange-500 to-orange-100 bg-clip-text;
   }
-}
+} */
 
 /* Hamburger Menu */
 
@@ -82,7 +82,10 @@ ion-icon:hover {
 }
 
 h2 {
-  -webkit-text-stroke: 1px rgb(12, 74, 110);
+  /* -webkit-text-stroke: 1px rgb(12, 74, 110); */
+  color: #fb923c;
+  text-shadow: -1px -1px 0 #0c4a6e, 1px -1px 0 #0c4a6e, -1px 1px 0 #0c4a6e,
+    1px 1px 0 #0c4a6e;
 }
 
 .stroper {
