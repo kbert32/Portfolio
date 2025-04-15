@@ -1001,6 +1001,10 @@ h2 {
   padding-bottom: 1.5rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pt-1 {
   padding-top: 0.25rem;
 }
@@ -1279,13 +1283,14 @@ h2 {
 
 .initials {
   background-image: url("../files/Fire.PNG");
+  background-color: blue;
   -webkit-background-clip: text;
           background-clip: text;
   background-attachment: fixed;
   color: transparent;
   /* background-position: right; */
-  background-repeat: no-repeat;
-  background-size: contain;
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
 }
 
 .nametrail {
